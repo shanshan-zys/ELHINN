@@ -1,4 +1,4 @@
-# HINN
+# ELHINN
 Published on ECCV: [ELHINN: Unifying Dense Crowd Simulation Across Scales via Eulerian--Lagrangian Hydrodynamics](https://doi.org/xx.xxxx/xxxxxxx.xxxxxxx)
 
 <p align="center"><img src="ELHINN.png" alt="elhinn" align="center" width="800px"></p>
