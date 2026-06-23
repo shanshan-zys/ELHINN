@@ -64,7 +64,7 @@ python evaluation/individual_metrics.py
 
 @inproceedings{zhou2026elhinn,
   title={ELHINN: Unifying Dense Crowd Simulation Across Scales via Eulerian--Lagrangian Hydrodynamics},
-  author={Zhou, Yanshan and Lai, Pingrui and Yu, Jiaqi and Cunyan, Li and Yang, Hua},
+  author={Zhou, Yanshan and Lai, Pingrui and Yu, Jiaqi and Li, Cunyan, and Yang, Hua},
   booktitle={European Conference on Computer Vision},
   pages={xxx--xxx},
   year={2026}
