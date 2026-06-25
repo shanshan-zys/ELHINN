@@ -4,12 +4,12 @@ Published on ECCV: [ELHINN: Unifying Dense Crowd Simulation Across Scales via Eu
 <p align="center"><img src="ELHINN.png" alt="elhinn" align="center" width="800px"></p>
 
 ## Abstract
-Developing effective dense crowd simulation is challenging due to the inherent scale gap between macroscopic collective coherence and microscopic individual realism. 
+Developing effective dense crowd simulation is challenging due to the scale gap between macroscopic collective coherence and microscopic individual realism. 
 Existing macroscopic (Eulerian) methods capture global motion patterns but lack individual trajectories, whereas microscopic (Lagrangian) methods model individual behaviors yet often fail to preserve systemic consistency in dense scenarios.
-To bridge this gap, we propose the Eulerian--Lagrangian Hydrodynamics-Informed Neural Network (ELHINN), a unified cross-scale framework that explicitly couples macroscopic velocity evolution with microscopic trajectory refinement by using evolved Eulerian velocity fields as physical priors to guide Lagrangian trajectories.
+To address this, we propose the Eulerian--Lagrangian Hydrodynamics-Informed Neural Network (ELHINN), a unified cross-scale framework that couples macroscopic velocity evolution with microscopic trajectory refinement by using evolved Eulerian velocity fields as physical priors to guide Lagrangian trajectories.
 For velocity evolution, we develop an enhanced Hydrodynamics-Informed Neural Network (HINN++) that incorporates a learnable governing equation with Kolmogorov--Arnold Network (KAN) residual correction and environmental boundary conditions, enabling accurate modeling of complex nonlinear dynamics under varying scenarios.
 For trajectory refinement, we use a Physics-Informed Neural Network (PINN) augmented with an entrance-aware resampling strategy (EARS) and collision-avoidance constraints to ensure stability and fidelity.
-Extensive experiments on two real-world crowd datasets demonstrate that ELHINN outperforms existing methods in simulating dense crowds across both scales.
+Experiments on two real-world crowd datasets demonstrate that ELHINN outperforms existing methods in simulating dense crowds across both scales.
 
 ## Highlights
 - We propose a unified cross-scale Eulerian--Lagrangian framework for dense crowd simulation, bridging the fundamental scale gap between global collective coherence and local individual realism.
